@@ -1,0 +1,29 @@
+{
+  "name": "v4-template",
+  "version": "1.0.0",
+  "description": "**A template for writing Uniswap v4 Hooks 🦄**",
+  "homepage": "https://github.com/uniswapfoundation/v4-template#readme",
+  "bugs": {
+    "url": "https://github.com/uniswapfoundation/v4-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uniswapfoundation/v4-template.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "ethers": "^6.15.0",
+    "viem": "^2.33.2"
+  }
+}
